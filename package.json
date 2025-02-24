@@ -1,0 +1,34 @@
+{
+  "name": "secret-agent",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@solar-republic/neutrino": "^1.2.4",
+    "@blake.regalia/belt": "^0.35.1",
+    "@solar-republic/cosmos-grpc": "^0.15.3",
+    "dotenv": "^16.4.5",
+    "ethers": "^5.7.2",
+    "secretjs": "^1.15.1",
+    "secure-random": "^1.1.2",
+    "next": "15.1.7",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.1.7",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
